@@ -1,0 +1,142 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 20px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.list_con {
+    float: left;
+}
+
+.list_con ul li {
+    float: left;
+}
+
+.list_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px
+}
+
+.list_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border-color: #e12228;
+}
+
+.sk_bd ul li .img {
+    width: 290px;
+    height: 283px;
+}
+
+.sk_bd ul li img {
+    width: 288px;
+    height: 283px;
+}
+
+.sk_bd ul li h4 {
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.jiner {
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+.jiner .font1 {
+    color: #e60012;
+    font-size: 22px;
+}
+
+.jiner .font1 i {
+    font-size: 14px;
+}
+
+.jiner .font2 {
+    text-decoration: line-through;
+}
+
+.shenyu {
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+.bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 6px;
+}
+
+.bar_in {
+    height: 10px;
+    width: 87%;
+    background-color: #ed282e;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.font2 i {
+    color: #e55356;
+}
+
+.box {
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.box a {
+    display: block;
+    width: 290px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+
+}
